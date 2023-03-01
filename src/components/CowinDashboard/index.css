@@ -1,0 +1,65 @@
+/* Write your CSS here */
+
+/* 
+Hex: #161625
+Hex: #2cc6c6
+Hex: #cbd5e1
+Hex: #ffffff
+Hex: #1c1c2b
+Hex: #2d87bb
+Hex: #a3df9f
+Hex: #64c2a6
+Hex: #94a3b8
+Hex: #f54394
+Hex: #5a8dee
+Hex: #2cc6c6
+Hex: #6c757d
+Hex: #5a8dee 
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+}
+.cowin-container {
+  background-color: #161625;
+  /* height: 100vh; */
+  width: 100vw;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 30px;
+  font-family: 'Roboto';
+}
+
+.logo-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-img {
+  height: 30px;
+}
+
+.logo-heading {
+  color: #2cc6c6;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.main-heading {
+  color: #ffffff;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.all-cards {
+  margin-top: 10px;
+}
+
+.vacation-card {
+  margin-top: 20px;
+  padding: 10px;
+}
